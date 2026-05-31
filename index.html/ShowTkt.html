@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trainTicket</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="VeiwTkt.html" />
+
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .container {
+            width: 101%;
+            margin: 0 auto;
+            padding: 3px;
+        }
+        
+        .container .btn {
+            top: 50px;
+            left: 44.5px;
+           
+           
+            /* right:25px; */
+            
+            background-color: rgba(170, 38, 231, 0.226);
+            
+            padding: 2px 4px;
+            cursor: pointer;
+            border: 2px solid rgba(208, 205, 208, 0.57);
+            color: rgba(255, 255, 255, 0.575);
+             text-decoration:none;
+             font-size:7px;
+            backdrop-filter:blur(15px)
+        }
+        /* defailt style for small device (mobile)*/
+        
+        .container .btn {
+            position: absolute;
+            top: 108px;
+            left: 32px;
+             transform: translate (-150%, -150%); 
+        }
+        /*   Medium  device (tablets ,600px and up*/
+        
+        @media (min-width:768px) {
+            .container .btn {
+                position: absolute;
+                top: 48.9%;
+                left: 52.4%;
+                transform: translate (-150%, -70%);
+                /*increase size here*/
+                padding: 1px 9px;
+                font-size:14px;
+                 backdrop-filter:blur(6px)
+            }
+        }
+        
+        @media (min-width:1200px) {
+            .container .btn {
+                position: absolute;
+                top: 48.9%;
+                left: 52.4%;
+                transform: translate (-150%, -70%);
+                padding: 1px 9px;
+                 backdrop-filter:blur(6px)
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"> <img src="imgs/img4.jpeg" alt="trainTicket" width="345vw" height="523px">
+        <a href="RailOne.html" class="btn">view details</button>
+        </div>
+    
+    
+    </body>
+    
+    </html>
+
+</body>
+
+</html>
